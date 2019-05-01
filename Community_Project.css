@@ -1,0 +1,31 @@
+@import "https://fonts.googleapis.com/css?family=Chivo:700|Nunito";
+
+body {
+    background-color: #ebebeb;
+    color: #101010;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+.border {
+    border: 5px solid;
+    width: auto;
+    height: auto;
+    min-height: 80%;
+}
+
+h1.title {
+    color: #101010;
+    border: 5px solid #101010;
+    height: auto;
+    width: auto; 
+    margin: 5px;
+}
+
+h1 {
+    font-family: "Chivo", sans-serif;
+    font-size: 60px;
+    color: #101010;
+    letter-spacing: 10px;
+}
