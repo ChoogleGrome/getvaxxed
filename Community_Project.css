@@ -11,9 +11,6 @@ body {
     height: 100%; */
 }
 
-div.container_left {
-    position: relative;
-}
 
 h1.title {
     color: #101010;
@@ -37,8 +34,21 @@ h1.under {
     text-decoration: underline; 
 }
 
+
 div {
     margin-top: 5px;
+}
+
+div.bl {
+    border: 5px #101011 solid;
+    float: left;
+    width: 63%;
+}
+
+div.br {
+    border: 5px #101010 solid;
+    float: right;
+    width: 35.1%;
 }
 
 div.license {
@@ -49,30 +59,43 @@ div.license {
     color: #525252;
 }
 
+
 .c {
     text-align: center;
+}
+
+.c_grey {
+    text-align: center;
+    color: #353535;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 25px;
+}
+
+.c_grey_pad {
+    text-align: center;
+    color: #353535;
+    margin: 0;
+    padding: 0;
 }
 
 ul {
     list-style-type: none;
     text-align: center;
+    padding: 0;
+    display: block;
 }
 .cn {
     font-style: italic;
 }
 
 .b {
-    border: 5px #101011 solid
-}
-
-div.bl {
-    border: 5px #101011 solid;
-    float: left;
-    width: 63%;
+    border: 5px #101010 solid
 }
 
 .bold {
     font-weight: bold;
 }
+
 
 
