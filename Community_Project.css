@@ -40,13 +40,13 @@ div {
 }
 
 div.bl {
-    border: 5px #101011 solid;
+    border: 5px #1b1b1b solid;
     float: left;
     width: 63%;
 }
 
 div.br {
-    border: 5px #101010 solid;
+    border: 5px #1b1b1b solid;
     float: right;
     width: 35.1%;
 }
