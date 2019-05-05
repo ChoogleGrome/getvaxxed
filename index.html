@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="Community_Project.css">
+        <link rel="stylesheet" type="text/css" href="./index/index.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-        <title> get vaXXed </title>
+        <script src="./index/index.js"></script>
+        <title> Get Vaxxed </title>
     </head>
 
     <body>
-        <h1 class="title"> get vaXXed </h1>
+        <h1 class="title"> Get Vaxxed </h1>
         <div class="bl">
             <p class="c">
                 This is a website with information on the cons of the 'AntiVax' movement. It will cover topics like:
@@ -30,34 +31,36 @@
         </div>
         
         <div class="br">
-                <h1 class="under"> Articles </h1>
-                    <ul>
-                        <li> 
-                            <a href="movement.html" class="bold"> How the AntiVax Movement Started</a>
-                            <p class="c_grey">
-                                <a class="bold"> Author: Dhyan Darji</a> 
-                                <BR>
-                                Blurb
-                            </p>
-                        </li>
-
-                        <li> 
-                            <a href="immunity.html" class="bold"> Herd Immunity</a>
-                            <p class="c_grey">
-                                <a class="bold"> Author: William Francis</a> 
-                                <BR>
-                                Blurb
-                            </p>
-                        </li>
-                        <li> 
-                            <a href="myths.html" class="bold"> Myths of Vaccines</a>
-                            <p class="c_grey_pad">
-                                <a class="bold"> Author: TJ Hansen</a> 
-                                <BR>
-                                Blurb
-                            </p>
-                        </li>
-                    </ul>
+            <h1 class="under"> Articles </h1>
+            <ul>
+                <li> 
+                    <input type="button" onclick="goToURL('./movement/movement.html')" value="How the AntiVax Movement Started">
+                    <BR>
+                    <p class="c_grey">
+                        Author: Dhyan Darji
+                        <BR>
+                        <span class="blurb"> Blurb </span>
+                    </p>
+                </li>
+                <li> 
+                    <input type="button" onclick="goToURL('./immunity/immunity.html')" value="Herd Immunity">
+                    <BR>
+                    <p class="c_grey">
+                        Author: William Francis
+                        <BR>
+                        <span class="blurb"> Blurb </span>
+                    </p>
+                </li>
+                <li> 
+                    <input type="button" onclick="goToURL('./myths/myths.html')" value="Myths of Vaccines">
+                    <BR>
+                    <p class="c_grey_pad">
+                        Author: TJ Hansen
+                        <BR>
+                        <span class="blurb"> Blurb </span>
+                    </p>
+                </li>
+            </ul>
         </div>
 
         <div class="bl">
