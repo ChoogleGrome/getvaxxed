@@ -41,15 +41,15 @@ div {
 
 div.bl {
     border: 5px #1b1b1b solid;
-    float: left;
-    width: 63%;
+    /* float: left;
+    width: 63%; */
 }
 
-div.br {
+/* div.br {
     border: 5px #1b1b1b solid;
     float: right;
     width: 35.1%;
-}
+} */
 
 div.license {
     position: fixed;
@@ -95,6 +95,18 @@ ul {
 
 .bold {
     font-weight: bold;
+}
+
+.author {
+    color: #353535;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+p {
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 
